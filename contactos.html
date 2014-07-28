@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+    <head>
+    <meta charset="utf-8">
+    <title>Compras</title>
+  
+
+
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="css/menu-2.css"/>
+<script type="text/javascript" src="js/menu.js" ></script>
+<script type="application/javascript">
+function formulario(){
+	var nombre=document.getElementById("nombre").value;
+	var jj=document.getElementById("nombre");
+	if(nombre==""){
+		
+		jj.style.borderColor="red";
+		jj.style.value=("Escriba su nombre");
+		jj.focus();
+		
+		
+		}
+		else{
+			
+			jj.style.borderColor="red";
+			}
+	
+	}
+
+
+
+</script>
+ </head>
+<body >
+
+
+<center><table width="75%" >
+  <td><p><img src="images/banner.jpg" width="1200" height="200"/>
+    </p></td></table></center>
+    
+    
+<div id="sse1">
+  <div id="sses1">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Quienes somos.html">Quienes Somos</a></li>
+      <li><a href="Catalogo.html">Catalogo</a></li>
+      <li><a href="contactos.html">Compras</a>
+    
+      <li><a href="accesorios.html">Accesorios</a></li>
+      <li><a href="Caballeros.html">Caballeros</a></li>
+       <li><a href="damas.html">Damas</a></li>
+       <li><a href="niños.html">Niños</a></li>
+        <li><a href="ortopedico.html">Ortopédicos</a></li>
+         <li><a href="tenis.html">Tennis</a></li>
+      
+      </li>
+    </ul>
+  </div>
+</div>
+
+<section>
+
+<div ><br><br><br><br>
+<form id="pago">
+<fieldset>
+<legend>RELLENE LOS CAMPOS CON SU INFORMACIÓN PERSONAL:</legend>
+<ul>
+<li>
+<label for="nombre">Nombre</label>
+<input id="Nombre" name="nombre" type="text" placeholder="Escriba su nombre" required autofocus>
+</li>
+<li>
+<label for="email">Email</label>
+<input id="email" name="email" type="email" placeholder="felix@com.com" required>
+</li>
+<li>
+<label for="tlefono">Teléfono</label>
+<input id="telefono" name="telefono" type="tel" placeholder="Sólo números" required>
+</li>
+<li>
+<label for="domicilio">Domicilio</label>
+<input id="domicilio" name="domicilio" type="text" placeholder="av..20 de ..." required autofocus>
+</li>
+<li>
+<label for="estado">Estado</label>
+<input id="estado" name="estado" type="estado" placeholder="Poblacion" required autofocus>
+</li>
+</ul>
+</fieldset>
+<fieldset>
+<legend>Datos de la tarjeta de crédito o débito</legend>
+<ol>
+<li>
+<label for="numtarjeta">Número</label>
+<input id="numtarjeta" name="numtarjeta" type="number" placeholder="Ej. 00000000" required>
+</li>
+<li>
+<label for="nomtarjeta">Nombre</label>
+<input id="nomtarjeta" name="nomtarjeta" type="text" placeholder="Nombre de tarjeta" required autofocus>
+</li>
+</ol>
+</fieldset>
+
+<fieldset>
+<button type="submit" id="btnPedido" formaction="https://bay177.mail.live.com/default.aspx#fid=flinbox">Confirmar pedido por email</button>
+</fieldset>
+</form>
+</div>
+</section>
+
+<footer>
+ Derechos reservados  &copy;Zapaterias Román
+ </footer>
+</body>
+</html>

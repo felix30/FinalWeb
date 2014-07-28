@@ -1,0 +1,120 @@
+html,body {
+
+margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+}
+
+body{
+	background-color: #CDCDCD;
+	font-family: sans-serif;
+}
+
+header{
+	background-image:url(../../Prueba1/images/banner.jpg);
+margin-left:120px;
+margin-right:120px;  
+height:200px;
+ padding:20px;
+font-size:20px;
+color:#A4A4A4;
+   
+}
+
+.imgs
+{
+	height: 200px;
+	width: 100%;
+	float: left;
+}
+
+section{
+background-color:#A4A4A4;
+    margin-left:120px;
+margin-right:120px;
+}
+section h1{
+text-align:left;
+margin-left:10px;
+padding:10px;
+}
+
+
+footer{
+	background-color: #CCFF99;
+
+	height: 15px;
+	padding: 5px;
+	font-size: 10px;
+	color: #D40000;
+	float: left;
+	width:100%;
+    }
+
+  
+	 #imgs {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#imgs:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+   #foto{
+float:left;
+margin-left:10px;
+padding:15px;
+}
+#art1{
+    
+background-color:#666666;
+margin-left:10px;
+padding:10px;
+text-align:left;
+font-size:18px;
+color:white;
+}
+
+#art1 ol, ul {
+    height:100%;
+margin-left:10%;
+
+}
+#video{
+    width:450px;
+    height:400px;
+    margin-top:30px;
+    margin-left:20%;
+    border-radius:15px 15px 15px 15px;
+    padding:20px;
+}
+    
+#btnPedido
+{
+	background-image:url(../fotos/banner.jpg);
+}
+#pago{
+	align: center;
+	text-align: justify;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
